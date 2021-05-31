@@ -12,11 +12,33 @@
 - catboost  
 - imblearn
 
+## Problem Statement
+  Happy Customer Bank is a mid-sized private bank that deals in all kinds of banking products, like Savings accounts, Current accounts, investment products, credit products,   among other offerings.
+  The bank also cross-sells products to its existing customers and to do so they use different kinds of communication like telecasting, e-mails, recommendations on net         banking, mobile banking, etc.
+  In this case, the Happy Customer Bank wants to cross-sell its credit cards to its existing customers. The bank has identified a set of customers that are eligible for         taking these credit cards.
+  Now, the bank is looking for your help in identifying customers that could show higher intent towards a recommended credit card.
+
+## Dataset
+
+  This dataset was part of May 2021 Hackathon conducted by analytics vidhya, for more info check: https://datahack.analyticsvidhya.com/contest/job-a-thon-2/
+
+## Dataset Description
+  * ID - IUnique Identifier for a row
+  * Gender- Gender of the Customer
+  * Age-Age of the Customer (in Years)
+  * Region_Code-Code of the Region for the customers
+  * Occupation-Occupation Type for the customer
+  * Channel_Code-Acquisition Channel Code for the Customer (Encoded)
+  * Vintage-Vintage for the Customer (In Months)
+  * Credit_Product-If the Customer has any active credit product (Home loan, Personal loan, Credit Card etc.)
+  * Avg_Account_Balance- Average Account Balance for the Customer in last 12 Months
+  * Is_Active-If the Customer is Active in last 3 Months
+
 ## Data Understanding
-- Shape of the data
-- Number of columns and their dtypes
-- Null value analysis (Found some Null values in Credit Product column which are of significant amount, so didnt remove them)
-- ID column values from both the sets are captured to a list and dropped from dataframes.
+  * Shape of the data
+  * Number of columns and their dtypes
+  * Null value analysis (Found some Null values in Credit Product column which are of significant amount, so didnt remove them)
+  * ID column values from both the sets are captured to a list and dropped from dataframes.
 
 ## Descriptive Analysis
 - Exploratory Data Analysis is done for each independent column with target column and meaningfull insights are observed>
@@ -47,4 +69,5 @@
 ## Predictions
   * Atlast predictions are made for test data and got roc auc score of 0.8732186587
 
-
+## Future Improvements
+  * Deep Learning models can be given a shot for improvement in score.
