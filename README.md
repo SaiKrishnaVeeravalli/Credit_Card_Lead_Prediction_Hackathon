@@ -1,2 +1,13 @@
-# Credit_Card_Lead_Prediction_Hackathon
-This is about credit card lead prediction for the customers.
+# Requirements
+- python > 3.6
+- pandas
+- numpy
+- matplotlib
+- sklearn
+- seaborn
+- xgboost
+- catboost  
+- imblearn
+
+
+
