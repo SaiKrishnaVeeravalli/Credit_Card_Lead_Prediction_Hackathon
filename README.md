@@ -7,7 +7,6 @@
 - matplotlib
 - seaborn
 - sklearn
-- seaborn
 - xgboost
 - catboost  
 - imblearn
