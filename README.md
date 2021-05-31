@@ -16,6 +16,7 @@
 - Shape of the data
 - Number of columns and their dtypes
 - Null value analysis (Found some Null values in Credit Product column which are of significant amount, so didnt remove them)
+- ID column values from both the sets are captured to a list and dropped from dataframes.
 
 ## Descriptive Analysis
 - Exploratory Data Analysis is done for each independent column with target column and meaningfull insights are observed>
