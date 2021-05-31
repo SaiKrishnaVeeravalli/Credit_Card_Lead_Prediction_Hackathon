@@ -5,6 +5,7 @@
 - pandas
 - numpy
 - matplotlib
+- seaborn
 - sklearn
 - seaborn
 - xgboost
