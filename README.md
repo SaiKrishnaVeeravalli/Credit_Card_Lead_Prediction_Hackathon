@@ -42,7 +42,7 @@
   * Also used CatBoostClassifier and optimized it.
   * It is observed that both the models performed well and so I went for stacking.
   * For StackingClassifier base models XGBoost and CatBoost are passed and LogisticRegression is used are meta model.
-  * Final Model is created!
+  * Final Model is built with improved performance!
 
 ## Predictions
   * Atlast predictions are made for test data and got roc auc score of 0.8732186587
