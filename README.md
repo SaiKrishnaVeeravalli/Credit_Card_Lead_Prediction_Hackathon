@@ -43,7 +43,7 @@
   * ID column values from both the sets are captured to a list and dropped from dataframes.
 
 ## Descriptive Analysis
-- Exploratory Data Analysis is done for each independent column with target column and meaningfull insights are observed>
+- Exploratory Data Analysis is done for each independent column with target column and meaningful insights are observed>
   * Gender - Male are more inclined for credit card.
   * Age - People from 43 to 60 years of age shown much interest for credit cards.
   * Region_Code - People from some regions have shown interest.
